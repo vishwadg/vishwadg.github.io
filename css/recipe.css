@@ -1,6 +1,8 @@
 body {
     background-image: url("../media/silverware.jpg");
     background-attachment: fixed;
+    width: 1024px;
+    margin: auto;
 }
 
 h1,
