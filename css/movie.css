@@ -1,0 +1,138 @@
+body {
+    background-image: url("../media/movie/background.png");
+    margin: 0;
+    padding: 0;
+    font-size: 8pt;
+}
+
+#banner {
+    background-image: url("../media/movie/bannerbg.png");
+    margin: 0;
+    padding: 0;
+    background-repeat: repeat-x;
+}
+
+.parent {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 4px solid gray;
+}
+
+.comment {
+    float: left;
+    display: block;
+    width: 550px;
+}
+
+.overview {
+    float: right;
+    display: block;
+    width: 250px;
+    background-color: #A2B964;
+}
+
+#banner img {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+#comment-banner {
+    background-image: url("../media/movie/rbg.png");
+    background-repeat: repeat-x;
+    height: 83px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#rating {
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.user-comment {
+    border: 2px solid gray;
+    font-size: 8pt;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #E8DC9B;
+}
+
+.comment-middle {
+    width: 47%;
+    padding-left: 2%;
+    float: left;
+    padding-top: 2%;
+}
+
+.comment img {
+    float: left;
+    margin-right: 5px;
+}
+
+.user {
+    font-size: 13px;
+}
+
+.user img {
+    float: left;
+    margin-right: 5px;
+}
+
+.user span {
+    font-style: italic;
+}
+
+.overview dl {
+    padding: 10pt;
+    font-size: 8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+.overview dl dt {
+    font-weight: bold;
+}
+
+.overview dl dd {
+    padding-bottom: 10pt;
+}
+
+.overview ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.pagination {
+    text-align: center;
+    background-color: #A2B964;
+    padding: 5px;
+    clear: both;
+    margin: 0;
+}
+
+.validator {
+    right: 0;
+    position: fixed;
+    min-height: 50px;
+    width: 90px;
+    bottom: 0;
+}
+
+.validator img {
+    opacity: 0.5;
+}
