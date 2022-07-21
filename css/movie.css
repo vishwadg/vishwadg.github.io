@@ -63,6 +63,10 @@ h1 {
     overflow: hidden;
 }
 
+.user-comment-parent {
+    margin-bottom: 20px;
+}
+
 .user-comment {
     border: 2px solid gray;
     font-size: 8pt;
