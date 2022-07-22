@@ -67,3 +67,26 @@ input.button {
     border-radius: 3px;
     margin: 4px;
 }
+
+.disclaimer {
+    margin-top: 32px;
+}
+
+span {
+    margin-bottom: 4px;
+    color: red;
+}
+
+.validator {
+    margin-top: 32px;
+}
+
+.back {
+    display: flex;
+}
+
+.back>p {
+    margin-top: 6px;
+    margin-left: 10px;
+    color: red;
+}
