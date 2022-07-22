@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Retrieve Grade</title>
+    <link rel="stylesheet" type="text/css" href="../css/grade.css">
+    <meta property="og:image" content="../media/vishwa.jpg">
+</head>
+
+<body>
+    <div class="form">
+        <h1>Retrieve Your Grade</h1>
+        <form action="/http://mumstudents.org/params.php" method="post">
+            <label>Name: </label><br>
+            <input type="text" placeholder="Enter your name">
+            <br><br>
+            <label>Student ID#:</label><br>
+            <input type="text" placeholder="Enter your student id#">
+            <br><br>
+
+            <label>Assignment: </label><br>
+            <select id="assignment" name="assignment">
+                <option value="lab0">Lab0</option>
+                <option value="lab0">Lab1</option>
+                <option value="lab0">Lab2</option>
+                <option value="lab0">Lab3</option>
+                <option value="lab0">Lab4</option>
+                <option value="lab0">Hw1</option>
+                <option value="lab0">Hw2</option>
+                <option value="lab0">Hw3</option>
+            </select>
+            <br><br>
+
+            <label>Choose your entry:</label><br>
+            <input type="radio" id="aug2021" name="entry" value="Aug 2021">
+            <label for="aug2021">Aug 2021</label>
+            <input type="radio" id="nov2021" name="entry" value="Nov 2021">
+            <label for="nov2021">Nov 2021</label>
+            <input type="radio" id="feb2022" name="entry" value="Feb 2022">
+            <label for="feb2022">Feb 2022</label>
+            <input type="radio" id="may2022" name="entry" value="May 2022">
+            <label for="may2022">May 2022</label><br><br>
+
+            <input type="checkbox" id="verify-student" name="verify" value="Verify">
+            <label for="verify-student">I confirm, I am seeing my own grade not others</label>
+            <br><br>
+
+            <input class="button" type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>

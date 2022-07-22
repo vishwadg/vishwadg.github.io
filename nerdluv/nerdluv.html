@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Retrieve Grade</title>
+    <link rel="stylesheet" type="text/css" href="../css/nerdluv.css">
+    <meta property="og:image" content="../media/vishwa.jpg">
+</head>
+
+<body>
+    <div class="form">
+        <img src="../media/nerdluv/nerdluv.png" alt="nerd luv">
+        <p>where meek geeks meet</p>
+        <fieldset class="parent">
+            <legend>New User Signup:</legend>
+            <form action="/http://mumstudents.org/params.php" method="post">
+                <div class="form-child">
+                    <div class="label-value">
+                        <label>Name: </label><br><br>
+                        <label>Gender: </label><br><br>
+                        <label>Age: </label><br><br>
+                        <label>Personality Type: </label><br><br>
+                        <label>Favorite OS: </label><br><br>
+                        <label>Seeking Age: </label><br><br>
+
+                    </div>
+
+                    <div class="input-value">
+                        <input type="text" placeholder="Enter your name" size="16" maxlength="16"><br><br>
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label><br><br>
+                        <input id="age" type="text" placeholder="" size="6" maxlength="2"><br><br>
+                        <input id="personality" type="text" placeholder="" size="6" maxlength="4"><a
+                            href="http://www.humanmetrics.com/cgi-win/jtypes2.asp"> (Don't know your type?)</a>
+                        <br><br>
+                        <select id="os" name="os">
+                            <option value="mac">Windows</option>
+                            <option value="mac">Mac</option>
+                            <option value="mac">Linux</option>
+                        </select>
+                        <br><br>
+                        <input id="min" type="text" placeholder="min" size="6" maxlength="2"> to
+                        <input id="max" type="text" placeholder="max" size="6" maxlength="2">
+                    </div>
+                </div>
+
+                <br><br>
+
+                <input class="button" type="submit" value="Sign Up">
+            </form>
+        </fieldset>
+
+    </div>
+
+</body>
+
+</html>
