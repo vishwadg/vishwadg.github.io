@@ -1,0 +1,52 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: blue;
+}
+
+.parent {
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+
+}
+
+.task-parent {
+    border: 2px solid blue;
+    border-radius: 4px;
+    padding: 1px 16px 8px 16px;
+}
+
+.task {
+    display: flex;
+}
+
+.parent .add-task {
+    flex-basis: 300px;
+}
+
+.add-task input {
+    margin-top: 8px;
+    width: 210px;
+}
+
+.add-task button {
+    margin-top: 8px;
+    width: 218px;
+}
+
+.parent .show-task {
+    flex-basis: 300px;
+}
+
+.show-task textarea {
+    margin-top: 8px;
+    width: 90%;
+}
+
+.validator {
+    margin-top: 34px;
+}
