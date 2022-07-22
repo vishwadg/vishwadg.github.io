@@ -13,7 +13,7 @@
         <p>where meek geeks meet</p>
         <fieldset class="parent">
             <legend>New User Signup:</legend>
-            <form action="/http://mumstudents.org/params.php" method="post">
+            <form action="http://mumstudents.org/params.php" method="get">
                 <div class="form-child">
                     <div class="label-value">
                         <label>Name: </label><br><br>
@@ -26,23 +26,28 @@
                     </div>
 
                     <div class="input-value">
-                        <input type="text" placeholder="Enter your name" size="16" maxlength="16"><br><br>
-                        <input type="radio" id="male" name="gender" value="Male">
+                        <input id="name" name="name" type="text" placeholder="Enter your name" size="16" maxlength="16"
+                            required><br><br>
+                        <input type="radio" id="male" name="gender" value="Male" required>
                         <label for="male">Male</label>
                         <input type="radio" id="female" name="gender" value="Female">
                         <label for="female">Female</label><br><br>
-                        <input id="age" type="text" placeholder="" size="6" maxlength="2"><br><br>
-                        <input id="personality" type="text" placeholder="" size="6" maxlength="4"><a
-                            href="http://www.humanmetrics.com/cgi-win/jtypes2.asp"> (Don't know your type?)</a>
+                        <input id="age" name="age" type="text" placeholder="" size="6" maxlength="2" required><br><br>
+                        <input id="personality" name="personality" type="text" placeholder="" size="6" maxlength="4"
+                            required>
+                        <a href="http://www.humanmetrics.com/cgi-win/jtypes2.asp"> (Don't know your type?)</a>
                         <br><br>
                         <select id="os" name="os">
-                            <option value="mac">Windows</option>
+                            <option value="">None</option>
+                            <option selected value="mac">Windows</option>
                             <option value="mac">Mac</option>
                             <option value="mac">Linux</option>
                         </select>
                         <br><br>
-                        <input id="min" type="text" placeholder="min" size="6" maxlength="2"> to
-                        <input id="max" type="text" placeholder="max" size="6" maxlength="2">
+                        <input id="min" name="minimum age" type="text" placeholder="min" size="6" maxlength="2"
+                            required> to
+                        <input id="max" name="maximum age" type="text" placeholder="max" size="6" maxlength="2"
+                            required>
                     </div>
                 </div>
 

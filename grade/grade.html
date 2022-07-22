@@ -11,17 +11,18 @@
     <div class="parent">
         <div class="form">
             <h1>Retrieve Your Grade</h1>
-            <form action="/http://mumstudents.org/params.php" method="post">
+            <form action="http://mumstudents.org/params.php" method="GET">
                 <label>Name: </label><br>
-                <input type="text" placeholder="Enter your name">
+                <input required id="name" name="name" type="text" placeholder="Enter your name">
                 <br><br>
                 <label>Student ID#:</label><br>
-                <input type="text" placeholder="Enter your student id#">
+                <input required id="student-id" name="id" type="text" placeholder="Enter your student id#">
                 <br><br>
 
                 <label>Assignment: </label><br>
-                <select id="assignment" name="assignment">
-                    <option value="lab0">Lab0</option>
+                <select required id="assignment" name="assignment">
+                    <option value="">None</option>
+                    <option selected value="lab0">Lab0</option>
                     <option value="lab0">Lab1</option>
                     <option value="lab0">Lab2</option>
                     <option value="lab0">Lab3</option>
@@ -42,7 +43,7 @@
                 <input type="radio" id="may2022" name="entry" value="May 2022">
                 <label for="may2022">May 2022</label><br><br>
 
-                <input type="checkbox" id="verify-student" name="verify" value="Verify">
+                <input type="checkbox" required id="verify-student" name="student" value="verified">
                 <label for="verify-student">I confirm, I am seeing my own grade not others</label>
                 <br><br>
 
