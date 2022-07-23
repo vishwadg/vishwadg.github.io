@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Text Decorator</title>
+    <link href="../css/decoratemytext.css" type="text/css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/decoratemytext.js"></script>
+    <meta property="og:image" content="../media/vishwa.jpg">
+
+</head>
+
+<body>
+    <h1>Text Decorator</h1>
+
+    <div>
+        <img src="../media/decorated.gif" alt="very decorated!" />
+    </div>
+
+    <fieldset class="field-text">
+        <legend>Text</legend>
+        <textarea id="text-area1" rows="4" cols="30">Sample Item 1
+Sample Item 2
+        </textarea>
+    </fieldset>
+    <br>
+
+    <fieldset class="field-deco">
+        <legend>Decoration</legend>
+        <input type="button" id="big-btn" value="Bigger Decorations!"><br>
+        <input type="checkbox" id="blin-check"><label>Bling</label>
+    </fieldset>
+    <br>
+
+    <fieldset class="field-igpay">
+        <legend>Igpay Atinlay</legend>
+        <textarea id="text-area-igpay" rows="4" cols="30"
+            placeholder="Enter a text to convert it to Pig Latin"></textarea><br>
+        <hr>
+        <label class="converted">Converted Text(s)</label><br>
+        <p id="con-igpay"></p><br>
+        <input type="button" id="btn-igpay" value="Igpay Atinlay">
+        <input type="button" id="btn-clear-igpay" value="Clear Text"><br>
+    </fieldset>
+    <br>
+
+    <fieldset class="field-malko">
+        <legend>Malkovitch</legend>
+        <textarea id="text-area-malko" rows="4" cols="30"
+            placeholder="Enter a text to convert it to Malkovitch"></textarea><br>
+        <hr>
+        <label class="converted">Converted Text(s)</label><br>
+        <p id="con-malko"></p><br>
+        <input type="button" id="btn-malko" value="Malkovitch">
+        <input type="button" id="btn-clear-malko" value="Clear Text"><br>
+    </fieldset>
+
+</body>
+
+</html>
