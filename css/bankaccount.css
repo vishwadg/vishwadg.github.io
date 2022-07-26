@@ -1,0 +1,42 @@
+body {
+    width: 600px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.bank {
+    border-left: 1px solid black;
+    padding: 8px;
+}
+
+label {
+    text-align: center;
+}
+
+#update-child {
+    display: none;
+}
+
+#open-child {
+    display: block;
+}
+
+input {
+    padding: 4px;
+    width: 30%;
+}
+
+.update-account {
+    margin-top: 56px;
+}
+
+select {
+    margin-top: 20px;
+    padding: 6px;
+}
+
+.validator {
+    margin-top: 200px;
+}
