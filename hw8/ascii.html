@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ASCII Animation</title>
+    <link href="../css/ascii.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/ascii.js"></script>
+    <script src="../js/animations.js"></script>
+    <meta property="og:image" content="../media/vishwa.jpg">
+</head>
+
+<body>
+    <div class="parent">
+        <h1>CSE 190 M ASCII Animation Viewer</h1>
+        <div class="textinput">
+            <textarea id="txt-input" rows="20" cols="80"></textarea>
+        </div>
+        <div class="control">
+            <fieldset>
+                <legend>
+                    Play Control
+                </legend>
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Animation
+                </legend>
+                <select id="anim" name="anim">
+                    <option value="Blank">Blank</option>
+                    <option value="Exercise">Exercise</option>
+                    <option value="Juggler">Juggler</option>
+                    <option value="Bike">Bike</option>
+                    <option value="Dive">Dive</option>
+                    <option value="Custom">Custom</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Size
+                </legend>
+                <select id="size" name="size">
+                    <!-- Tiny (7pt), Small (10pt), Medium (12pt), 
+                        Large (16pt), Extra Large (24pt), XXL (32pt) -->
+                    <option value="7pt">Tiny</option>
+                    <option value="10pt">Small</option>
+                    <option value="12pt" selected>Medium</option>
+                    <option value="16pt">Large</option>
+                    <option value="24pt">Extra Large</option>
+                    <option value="32pt">XXL</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Speed
+                </legend>
+                <input id="turbo-check" type="checkbox"><label>Turbo</label>
+            </fieldset>
+        </div>
+        <div class="validator">
+            <a href="http://validator.w3.org/check?uri=referer" onclick="this.href='http://validator.w3.org/check?uri=' + 
+                    document.URL"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!" height="31"
+                    width="88" /></a>
+
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://vishwadg.github.io/hw8/ascii.html">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!" />
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
