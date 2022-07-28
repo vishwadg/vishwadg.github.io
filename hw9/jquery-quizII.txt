@@ -64,7 +64,7 @@
 
                 <script>
                     $(document).ready(function(){
-                        $("div ul li").each(function() {
+                        $("div:has(ul)").each(function() {
  	                    $(this).css("color", "blue");});
                     });
                 </script>
