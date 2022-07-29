@@ -50,7 +50,7 @@ ANS:
     <script>
         // INSERT YOUR JQUERY CODE HERE
         $(document).ready(function(){
-            $("p:last").text($("p:first").text())
+            $("p:last").html($("p:first").text())
         });
     </script>
 </body>
