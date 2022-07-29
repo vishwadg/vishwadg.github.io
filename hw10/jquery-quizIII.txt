@@ -80,8 +80,7 @@ ANS:
 
 ANS: 
 	$(document).ready(function(){ 
-	    $("ul.level-2 > li").css("background-color", "red");
-        $("ul.level-3").css("background-color", "white");
+	    $("ul.level-2").css("background-color", "red");
 	});
 
 
@@ -110,10 +109,11 @@ these items in the list. Describe the changes to the Javascript (jQuery) code to
 requirement.
 
 ANS:
-    $(document).ready(function(){
-        $("li.turkey").replaceWith(<li class="mashed-potatoes">Mashed Potatoes</li>)
-    });
+    Add following code to Go Vegetarian Button event handler
+    $("li.turkey").replaceWith(<li class="mashed-potatoes">Mashed Potatoes</li>);
 
+    Add following code to Restore Menu Button event handler
+    $(".mashed").replaceWith("<li class="turkey"> Turkey</li>");
 
 
 5. Write Javascript (jQuery) code to change the color of the parent and grandparent list items of the span
