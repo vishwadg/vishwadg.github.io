@@ -57,6 +57,7 @@ ANS:
 </html>
 
 
+
 2. Write jQuery code to create a red background for the level-2 list items.
 
 <ul class="level-1">
@@ -84,6 +85,7 @@ ANS:
 	});
 
 
+
 3. Write jQuery code to select the element that comes immediately before item three and change its
 background color to blue.
 <ul>
@@ -100,6 +102,7 @@ ANS:
     });
 
 
+
 4. Let us one additional requirement for the "Go Vegetarian" button of the Webville Eatery Menu
 described in Chapter 4 of Head First jQuery: "Turkey" in the ingredient list of any entree is replaced by
 "Mashed Potatoes" in the vegetarian version. You may assume there is a class "turkey" that identifies
@@ -110,6 +113,8 @@ ANS:
     $(document).ready(function(){
         $("li.turkey").replaceWith(<li class="mashed-potatoes">Mashed Potatoes</li>)
     });
+
+
 
 5. Write Javascript (jQuery) code to change the color of the parent and grandparent list items of the span
 of text ("some text") in the following to green.
