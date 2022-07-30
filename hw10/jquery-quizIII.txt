@@ -110,7 +110,7 @@ requirement.
 
 ANS:
     Add following code to Go Vegetarian Button event handler
-    $("li.turkey").replaceWith(<li class="mashed-potatoes">Mashed Potatoes</li>);
+    $("li.turkey").replaceWith("<li class="mashed-potatoes">Mashed Potatoes</li>");
 
     Add following code to Restore Menu Button event handler
     $(".mashed").replaceWith("<li class="turkey"> Turkey</li>");
