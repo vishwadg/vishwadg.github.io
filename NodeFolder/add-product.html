@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Get Product</title>
+    <link href="calc.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Simple Calculator</h1>
+    <form action="/result" method="post">
+        <label> Num1</label>
+        <input name="num1" type="number" required><br> <br>
+        <label> Num2</label>
+        <input name="num2" type="number" required><br> <br>
+        <select name="calc">
+            <option value="add">Add (+)</option>
+            <option value="sub">Subtract (-)</option>
+            <option value="divide">Divide (/)</option>
+            <option value="mult" selected>Multiply (*)</option>
+        </select><br> <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
