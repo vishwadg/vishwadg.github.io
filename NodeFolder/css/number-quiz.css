@@ -1,0 +1,23 @@
+body{
+    margin: auto;
+    width: 600px;
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div{
+    border: 1px solid salmon;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px;
+}
+input[type='number']{
+    padding: 4px;
+}
+
+input[type='submit']{
+    background-color: bisque;
+    padding: 6px;
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+}

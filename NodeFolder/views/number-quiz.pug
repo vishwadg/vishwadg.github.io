@@ -1,0 +1,21 @@
+html
+head 
+    title Quiz #{sessionId}
+    link(rel='stylesheet', href='number-quiz.css')
+body 
+     - console.log("point " + point + "  " + ques)
+        div
+            h1 The Number Quiz
+            p Your current score is:  #{point}
+            p #{isReset ? `You have completed the Number Quiz, with a score of ${point} out of 5.`: 'Guess the next number in the sequence.'}
+            if !isReset
+                p #{ques}
+                form(method='post' action='/submit')
+                    label Your Answer: 
+                    input(type= 'number' name='ans')
+                    br 
+                    br
+                    input(type= 'submit' value='Submit' )
+            else 
+                form(method='post' action='/reset')
+                    input(type= 'submit' value='Restart' )
