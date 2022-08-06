@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Astronomy Picture of the Day(Promise)</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../css/apod.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/apod-promise.js"></script>
+    <meta property="og:image" content="../media/vishwa.jpg">
+</head>
+
+<body>
+    <div>
+        <h1>Astronomy Picture Of the Day</h1>
+        <label for="date">Enter Date:</label>
+        <input type="date" name="date" id="date" min="1980-01-01" pattern="\d{4}-\d{2}-d{2}" required>
+        <input type="button" id="viewBtn" value="View Photo">
+        <br> <br>
+        <hr>
+        
+        <h3 id="pic-title"></h3>
+        <p id="pic-desc"></p>
+        <img src="" id="pic" />
+    </div>
+</body>
+
+</html>
