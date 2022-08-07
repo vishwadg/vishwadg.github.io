@@ -44,7 +44,7 @@
             appendPuzzSquare();
         }
 
-        while (count < 100) {
+        while (count < 200) {
             let sideSquares = [];
             let divVal = parseInt($('#empty').val());
 
