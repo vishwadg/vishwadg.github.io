@@ -1,0 +1,29 @@
+body {
+    width: 650px;
+    background-color: aliceblue;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+}
+
+h1 {
+    color: coral;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+}
+
+input {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid cornflowerblue;
+}
+
+input[type='submit'] {
+    background-color: rgb(18, 80, 90);
+    color: white;
+
+}
